@@ -25,6 +25,22 @@ namespace ChummerX
         public MainPage()
         {
             this.InitializeComponent();
+#if NETFX_CORE
+            //Universal Windows Platform
+#elif __ANDROID__
+            //Android
+#elif __IOS__
+            //IOS
+#elif __WASM__
+            //Web
+#elif __MACOS__
+            //MacOS
+#endif
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

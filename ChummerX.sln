@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.902
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChummerX.Shared", "ChummerX\ChummerX.Shared\ChummerX.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
@@ -11,12 +11,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChummerX.iOS", "ChummerX\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChummerX.UWP", "ChummerX\ChummerX.UWP\ChummerX.UWP.csproj", "{D819A12F-4810-4726-B526-B850311BFA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChummerX.Wasm", "ChummerX\ChummerX.Wasm\ChummerX.Wasm.csproj", "{1A3D371D-2D22-4061-8E54-45D5E8E26454}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChummerX.Wasm", "ChummerX\ChummerX.Wasm\ChummerX.Wasm.csproj", "{1A3D371D-2D22-4061-8E54-45D5E8E26454}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChummerX.macOS", "ChummerX\ChummerX.macOS\ChummerX.macOS.csproj", "{6D334DC6-3557-4171-85A1-4118B7CCA766}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChummerX\ChummerX.Shared\ChummerX.Shared.projitems*{1a3d371d-2d22-4061-8e54-45d5e8e26454}*SharedItemsImports = 5
 		ChummerX\ChummerX.Shared\ChummerX.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
 		ChummerX\ChummerX.Shared\ChummerX.Shared.projitems*{6d334dc6-3557-4171-85a1-4118b7cca766}*SharedItemsImports = 4
 		ChummerX\ChummerX.Shared\ChummerX.Shared.projitems*{8daa4302-d8be-40eb-ac55-fbd598d2e5aa}*SharedItemsImports = 4
